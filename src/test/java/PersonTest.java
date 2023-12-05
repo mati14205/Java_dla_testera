@@ -9,8 +9,8 @@ public class PersonTest {
         //adnotacja
     void shouldCalculateCorrectSalary() {
 
-        Person tomHanks = new Person("Tom", "Hanks");
-        int actual = tomHanks.calculatSalary(3, 3);
+        Person tomCruise = new Person("Tom", "Hanks");
+        int actual = tomCruise.calculatSalary(3, 3);
         int expected = 9;
 
         // serce testu - asercja - porównaj expected = actual
